@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Parveen Sharma - SDET Portfolio</title>
+   <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+    }
+
+    body {
+      background: #f4f7fa;
+      color: #2c3e50;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #2c3e50, #3498db);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    section h2 {
+      font-size: 1.8rem;
+      border-left: 5px solid #3498db;
+      padding-left: 10px;
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+
+    .info-box, .experience, .project, .edu-item, .language, .interest {
+      background: #fbfbfb;
+      border-left: 4px solid #3498db;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+      margin-bottom: 20px;
+    }
+
+    .experience ul, .edu-item ul {
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+
+    #skills ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      list-style: none;
+    }
+
+    #skills li {
+      background: #e8f4fd;
+      padding: 10px 15px;
+      border-radius: 20px;
+      font-weight: 600;
+      color: #217dbb;
+    }
+
+    #languages ul, #interests ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding-left: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2c3e50;
+      color: white;
+    }
+
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      #skills ul {
+        flex-direction: column;
+      }
+
+      #languages ul, #interests ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Parveen Sharma</h1>
+    <p>SDET | Software Test Engineer | Automation Enthusiast</p>
+  </header>
+
+  <main>
+    <section id="summary">
+      <h2>Profile Summary</h2>
+      <div class="info-box">
+       Passionate value driven experienced individual looking to obtain a challenging position and work environment in the industry where I can utilize my expertise, professionalism and advocate technical skills towards the growth of the organization.
+       </div>
+    </section>
+
+    <section id="experience">
+      <h2>Work Experience</h2>
+
+      <div class="experience">
+        <h3>Automation Test Engineer – SQE Labs</h3>
+        <p><strong>Jan 2023 – Present | Mohali, Punjab, India</strong></p>
+        <ul>
+          <li>Planned, designed, and executed functional, non-functional, and automated test cases.</li>
+          <li>Handled Regression, Smoke, Performance, and Sanity testing for production releases.</li>
+          <li>Logged and tracked bugs with severity/prioritization and RCA analysis.</li>
+        </ul>
+      </div>
+
+      <div class="experience">
+        <h3>Test Automation QA – Code Quotient Pvt. Ltd</h3>
+        <p><strong>Sep 2021 – Nov 2022 | Mohali, Punjab, India</strong></p>
+        <ul>
+          <li>Worked in Agile methodology and contributed to sprint-based automation tasks.</li>
+          <li>Designed, enhanced, debugged and maintained automated test suites.</li>
+          <li>Collaborated with dev teams to improve code quality and test coverage.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+
+      <div class="edu-item">
+        <h3>Master of Computer Applications</h3>
+        <p>Panipat Institute of Engineering and Technology, Panipat, Haryana (2018 – 2021)</p>
+      </div>
+
+      <div class="edu-item">
+        <h3>Bachelor of Science</h3>
+        <p>Pt. Chiranji Lal Govt. College, Karnal, Haryana (2015 – 2018)</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Selenium</li><li>Scrum</li><li>HTML</li><li>CSS</li><li>SQL/MySQL</li>
+        <li>Python</li><li>Django</li><li>Azure</li><li>JavaScript</li>
+        <li>Postman</li><li>RestAssured</li><li>BDD</li><li>TestNG/MsTest</li>
+        <li>Nunit/Junit</li><li>C#</li><li>SpecFlow</li><li>Cucumber</li>
+        <li>Web Development</li><li>Functional Testing</li><li>Smoke Testing</li>
+        <li>Regression Testing</li><li>Java Core</li><li>Pytest</li><li>Jira</li>
+        <li>Cypress</li><li>Bug Tracking</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>E-Commerce Ice Cream Desktop App</h3>
+        <p>Built with Python, Django, Bootstrap, and JavaScript.</p>
+        <p>Includes: customer authentication, cart system, order management, and admin dashboard.</p>
+        <a href="https://github.com/parveen-shandilya/my-website-icecream" target="_blank">View Project on GitHub</a>
+      </div>
+
+
+      <div class="project">
+    <h3>TestNG Parallel Execution with Docker</h3>
+    <p>Framework to run Selenium TestNG tests in parallel using Docker containers for scalable automation.</p>
+    <a href="https://github.com/parveen-shandilya/TestNGParallelDocker" target="_blank">View on GitHub</a>
+  </div>
+
+  <div class="project">
+    <h3>Playwright Automation Framework</h3>
+    <p>End-to-end UI test automation using Microsoft Playwright with modern reporting and configuration support.</p>
+    <a href="https://github.com/parveen-shandilya/PlaywrightProject" target="_blank">View on GitHub</a>
+  </div>
+
+  <div class="project">
+    <h3>Cypress with Docker Integration</h3>
+    <p>Containerized Cypress testing framework for fast and consistent frontend testing across environments.</p>
+    <a href="https://github.com/parveen-shandilya/CypressAndDocker" target="_blank">View on GitHub</a>
+  </div>
+
+  <div class="project">
+    <h3>Pytest Automation Framework</h3>
+    <p>Automation framework built using Python and Pytest, featuring modular test structure and logging.</p>
+    <a href="https://github.com/parveen-shandilya/pytestAutomation" target="_blank">View on GitHub</a>
+  </div>
+
+  <div class="project">
+    <h3>SpecFlow with Selenium Framework</h3>
+    <p>BDD testing framework using SpecFlow and Selenium with feature files, step definitions, and reports.</p>
+    <a href="https://github.com/parveen-shandilya/SpecFlowFramework" target="_blank">View on GitHub</a>
+  </div>
+
+  <div class="project">
+    <h3>Robot Framework Automation</h3>
+    <p>Keyword-driven testing framework using Robot Framework for acceptance testing and automation.</p>
+    <a href="https://github.com/parveen-shandilya/RobotFrameWork" target="_blank">View on GitHub</a>
+  </div>
+    </section>
+
+    <section id="languages">
+      <h2>Languages</h2>
+      <div class="language">
+        <ul>
+          <li><strong>English:</strong> Professional Working Proficiency</li>
+          <li><strong>Hindi:</strong> Full Professional Proficiency</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="interests">
+      <h2>Interests</h2>
+      <div class="interest">
+        <ul>
+          <li>Music</li>
+          <li>Sports</li>
+          <li>Travel</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="info-box">
+        <p><strong>Email:</strong> parveenritwal5362653@gmail.com</p>
+        <p><strong>Phone:</strong> +91 85297 51099</p>
+        <p><strong>Location:</strong> Karnal, Haryana, India</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Parveen Sharma. All rights reserved.
+  </footer>
+
+</body>
+</html>
